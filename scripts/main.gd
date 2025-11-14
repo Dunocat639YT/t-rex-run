@@ -61,7 +61,7 @@ func _process(delta: float) -> void:
 		
 		# Update ground position
 		if $Camera2D.position.x - $Ground.position.x > screen_size.x * 1.5:
-			$Ground.position.x += screen_size.x
+			$Ground.position.x += screen_size.x 
 	else:
 		if Input.is_action_pressed("ui_accept"):
 			game_running = true

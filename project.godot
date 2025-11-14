@@ -12,5 +12,5 @@ config_version=5
 
 config/name="T-Rex Run"
 run/main_scene="uid://bm0pt8cpn2h2l"
-config/features=PackedStringArray("4.4", "Forward Plus")
+config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
